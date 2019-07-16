@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name YM2149)(type Legacy)(uri "/Users/kuninet/Box Sync/github/KZ80-YM2149/KiCAD/YM2149.lib")(options "")(descr ""))
+)
