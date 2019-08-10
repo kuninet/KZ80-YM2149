@@ -64,16 +64,16 @@
       (place U1 134680 -75480 front 90 (PN 74HC138))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-      (place R8 93691.3 -103270 front 0 (PN 1k))
-      (place R6 93691.3 -97270 front 0 (PN 2.2k))
-      (place R4 103851 -91270 front 180 (PN 1k))
-      (place R2 179000 -100135 front 270 (PN 2.2k))
+      (place R8 180230 -110680 front 90 (PN 1k))
+      (place R6 95421.3 -103820 front 0 (PN 2.2k))
+      (place R4 105581 -97820 front 180 (PN 1k))
+      (place R2 95400 -91680 front 0 (PN 2.2k))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal::1
-      (place R7 93691.3 -100270 front 0 (PN 1M))
-      (place R5 103851 -94270 front 180 (PN 2.2k))
-      (place R1 183000 -100135 front 270 (PN 1k))
-      (place R3 93690 -88240 front 0 (PN 2.2k))
+      (place R7 183550 -110730 front 90 (PN 1M))
+      (place R5 105581 -100820 front 180 (PN 2.2k))
+      (place R1 95400 -88600 front 0 (PN 1k))
+      (place R3 95420 -94790 front 0 (PN 2.2k))
     )
     (component "Crystal:Crystal_HC49-U_Vertical"
       (place Y1 173000 -103635 front 180 (PN 3.57MHz))
@@ -94,7 +94,7 @@
       (place C2 94000 -82500 front 0 (PN 1u))
     )
     (component "AJ-1780:AJ-1780"
-      (place J1 92920 -72320 front 0 (PN "Audio-Jack-3_2Switches"))
+      (place J1 91680 -72300 front 0 (PN "Audio-Jack-3_2Switches"))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical
       (place J2 158000 -72000 front 90 (PN "ADDR JP"))
@@ -1611,38 +1611,16 @@
       (pins U7-7 U6-17)
     )
     (class kicad_default "" /A0 /A3 /A4 /A5 /A6 /A7 /RES /~IORD /~IOWR D0
-      D1 D2 D3 D4 D5 D6 D7 "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C11-Pad1)"
-      "Net-(C11-Pad2)" "Net-(C12-Pad1)" "Net-(C12-Pad2)" "Net-(C2-Pad1)" "Net-(C2-Pad2)"
-      "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(J1-Pad1)" "Net-(J1-Pad10)" "Net-(J1-Pad11)"
-      "Net-(J1-Pad13)" "Net-(J1-Pad15)" "Net-(J1-Pad3)" "Net-(J1-Pad4)" "Net-(J1-Pad5)"
-      "Net-(J1-Pad7)" "Net-(J1-Pad9)" "Net-(J2-Pad1)" "Net-(J2-Pad10)" "Net-(J2-Pad11)"
-      "Net-(J2-Pad13)" "Net-(J2-Pad15)" "Net-(J2-Pad3)" "Net-(J2-Pad4)" "Net-(J2-Pad5)"
-      "Net-(J2-Pad7)" "Net-(J2-Pad9)" "Net-(J3-Pad1)" "Net-(J3-Pad18)" "Net-(J3-Pad2)"
-      "Net-(J3-Pad20)" "Net-(J3-Pad22)" "Net-(J3-Pad23)" "Net-(J3-Pad24)"
-      "Net-(J3-Pad26)" "Net-(J3-Pad27)" "Net-(J3-Pad3)" "Net-(J3-Pad33)" "Net-(J3-Pad34)"
-      "Net-(J3-Pad35)" "Net-(J3-Pad36)" "Net-(J3-Pad37)" "Net-(J3-Pad38)"
-      "Net-(J3-Pad39)" "Net-(J3-Pad4)" "Net-(J3-Pad40)" "Net-(J3-Pad5)" "Net-(J3-Pad6)"
-      "Net-(J3-Pad7)" "Net-(J3-Pad8)" "Net-(J4-Pad1)" "Net-(J4-Pad18)" "Net-(J4-Pad2)"
-      "Net-(J4-Pad20)" "Net-(J4-Pad22)" "Net-(J4-Pad23)" "Net-(J4-Pad24)"
-      "Net-(J4-Pad26)" "Net-(J4-Pad27)" "Net-(J4-Pad3)" "Net-(J4-Pad33)" "Net-(J4-Pad34)"
-      "Net-(J4-Pad35)" "Net-(J4-Pad36)" "Net-(J4-Pad37)" "Net-(J4-Pad38)"
-      "Net-(J4-Pad39)" "Net-(J4-Pad4)" "Net-(J4-Pad40)" "Net-(J4-Pad5)" "Net-(J4-Pad6)"
-      "Net-(J4-Pad7)" "Net-(J4-Pad8)" "Net-(J5-Pad1)" "Net-(J5-Pad2)" "Net-(J5-Pad3)"
-      "Net-(J5-Pad4)" "Net-(J5-Pad6)" "Net-(J5-Pad7)" "Net-(J5-Pad8)" "Net-(R1-Pad1)"
-      "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(R4-Pad2)" "Net-(R6-Pad2)" "Net-(R7-Pad1)"
-      "Net-(R7-Pad2)" "Net-(R9-Pad2)" "Net-(RN2-Pad2)" "Net-(RN2-Pad3)" "Net-(RN2-Pad4)"
-      "Net-(RN2-Pad5)" "Net-(U1-Pad11)" "Net-(U1-Pad3)" "Net-(U1-Pad6)" "Net-(U2-Pad11)"
-      "Net-(U2-Pad6)" "Net-(U3-Pad1)" "Net-(U3-Pad10)" "Net-(U3-Pad13)" "Net-(U3-Pad4)"
-      "Net-(U4-Pad1)" "Net-(U4-Pad12)" "Net-(U4-Pad2)" "Net-(U4-Pad4)" "Net-(U4-Pad5)"
-      "Net-(U4-Pad7)" "Net-(U4-Pad8)" "Net-(U4-Pad9)" "Net-(U5-Pad10)" "Net-(U5-Pad11)"
-      "Net-(U5-Pad12)" "Net-(U5-Pad13)" "Net-(U5-Pad14)" "Net-(U5-Pad15)"
-      "Net-(U5-Pad16)" "Net-(U5-Pad17)" "Net-(U5-Pad18)" "Net-(U5-Pad19)"
-      "Net-(U5-Pad2)" "Net-(U5-Pad20)" "Net-(U5-Pad21)" "Net-(U5-Pad24)" "Net-(U5-Pad25)"
-      "Net-(U5-Pad26)" "Net-(U5-Pad39)" "Net-(U5-Pad5)" "Net-(U5-Pad6)" "Net-(U5-Pad7)"
-      "Net-(U5-Pad8)" "Net-(U5-Pad9)" "Net-(U6-Pad10)" "Net-(U6-Pad11)" "Net-(U6-Pad12)"
-      "Net-(U6-Pad13)" "Net-(U6-Pad14)" "Net-(U6-Pad15)" "Net-(U6-Pad16)"
-      "Net-(U6-Pad17)" "Net-(U6-Pad24)" "Net-(U6-Pad25)" "Net-(U6-Pad26)"
-      "Net-(U6-Pad39)" "Net-(U6-Pad6)" "Net-(U7-Pad12)" "Net-(U7-Pad9)"
+      D1 D2 D3 D4 D5 D6 D7 "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)"
+      "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(J2-Pad1)" "Net-(J2-Pad10)"
+      "Net-(J2-Pad11)" "Net-(J2-Pad13)" "Net-(J2-Pad15)" "Net-(J2-Pad3)" "Net-(J2-Pad5)"
+      "Net-(J2-Pad7)" "Net-(J2-Pad9)" "Net-(J3-Pad1)" "Net-(J3-Pad2)" "Net-(J3-Pad3)"
+      "Net-(J3-Pad4)" "Net-(J3-Pad6)" "Net-(J3-Pad7)" "Net-(J3-Pad8)" "Net-(J5-Pad1)"
+      "Net-(J5-Pad2)" "Net-(J5-Pad3)" "Net-(J5-Pad4)" "Net-(J5-Pad6)" "Net-(J5-Pad7)"
+      "Net-(J5-Pad8)" "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(R4-Pad2)" "Net-(R7-Pad1)"
+      "Net-(U1-Pad6)" "Net-(U2-Pad11)" "Net-(U2-Pad6)" "Net-(U3-Pad1)" "Net-(U3-Pad4)"
+      "Net-(U4-Pad1)" "Net-(U4-Pad12)" "Net-(U4-Pad4)" "Net-(U4-Pad7)" "Net-(U4-Pad9)"
+      "Net-(U5-Pad2)" "Net-(U5-Pad5)" "Net-(U6-Pad16)" "Net-(U6-Pad17)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
