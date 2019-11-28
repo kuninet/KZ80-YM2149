@@ -4,7 +4,6 @@
 * SBC8080バスにつながるPSG音源(YM2149/AY-3-8910)ボードのプロジェクトです。
 * 詳しい説明は以下のwikiをご覧ください。
 ** https://github.com/kuninet/KZ80-YM2149/wiki
-* ☆★ 試作検討段階です。参考までに御覧ください
 
 image::image/KZ80-YM2149.jpg[]
 
